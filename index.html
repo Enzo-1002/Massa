@@ -12,56 +12,68 @@
 <body>
     <header>
         <div class="container">
-            <div>
+            <div class="logo">
                 <img src="/image/logo.png" alt="Logo do site">
             </div>
-            <form action="#">
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Senha">
-                <button type="submit">Entrar</button>
-            </form>
+            <div class="sing-in">
+                <form action="#">
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Senha">
+                    <button type="submit" class="button primary">Entrar</button>
+                </form>
+            </div>
         </div>
     </header>
     <main>
         <section class="intro gray">
-            <h1>Ajudamos <strong>programadores</strong> a conseguirem seus <strong>primeiros empregos.</strong></h1>
-            <p>Mais de 100 mil desenvolvedores já conseguiram seus primeiros empregos usando nossa plataforma.</p>
-            <a href="#">Sou programador</a>
-            <a href="#">Somos empresa e estamos contratando</a>
+            <div class="container">
+                <h1>Ajudamos <strong>programadores</strong> a conseguirem seus <strong>primeiros empregos.</strong></h1>
+                <p>Mais de 100 mil desenvolvedores já conseguiram seus primeiros empregos usando nossa plataforma.</p>
+                <div class="cta">
+                    <a href="#" class="button primary">Sou programador</a>
+                    <a href="#" class="button second">Somos empresa e estamos contratando</a>
+                </div>
+            </div>
         </section>
         <section class="language">
-            <h1>Linguagens</h1>
-            <div class="Cards">
-                <div class="card">Ruby</div>
-                <div class="card">JavaScript</div>
-                <div class="card">Elixir</div>
-                <div class="card">Python</div>
-                <div class="card">Go</div>
+            <div class="container">
+                <h1>Linguagens</h1>
+                <div class="Cards">
+                    <div class="card red">Ruby</div>
+                    <div class="card blue">JavaScript</div>
+                    <div class="card purple">Elixir</div>
+                    <div class="card yellow">Python</div>
+                    <div class="card green">Go</div>
+                </div>
             </div>
         </section>
         <section class="team gray">
-            <h1>Nosso time</h1>
-            <div class="Members">
-                <div class="member"><img src="image/team/walter.jpg" alt="Walter"></div>
-                <div class="member"><img src="image/team/jesse.jpg" alt="Jesse"></div>
-                <div class="member"><img src="image/team/skyler.jpg" alt="Skyler"></div>
-                <div class="member"><img src="image/team/hank.jpg" alt="Hank"></div>
-                <div class="member"><img src="image/team/gus.jpg" alt="Gus"></div>
-                <div class="member"><img src="image/team/mike.jpg" alt="Mike"></div>
-                <div class="member"><img src="image/team/saul.jpg" alt="Saul"></div>
+            <div class="container">
+                <h1 class="title">Nosso time</h1>
+                <div class="Members">
+                    <div class="member"><img src="image/team/walter.jpg" alt="Walter"></div>
+                    <div class="member"><img src="image/team/jesse.jpg" alt="Jesse"></div>
+                    <div class="member"><img src="image/team/skyler.jpg" alt="Skyler"></div>
+                    <div class="member"><img src="image/team/hank.jpg" alt="Hank"></div>
+                    <div class="member"><img src="image/team/gus.jpg" alt="Gus"></div>
+                    <div class="member"><img src="image/team/mike.jpg" alt="Mike"></div>
+                    <div class="member"><img src="image/team/saul.jpg" alt="Saul"></div>
+                </div>
             </div>
         </section>
     </main>
     <footer>
-        <ul>
-            <li> <a href="#"><h3>Política de Privacidade</h3></a></li>
-            <li> <a href="#"><h3>Carreira</h3></a></li>
-            <li> <a href="#"><h3>LinKedin</h3></a></li>
-            <li> <a href="#"><h3>Youtube</h3></a></li>
-            <li> <a href="#"><h3>Facebook</h3></a></li>
-        </ul>
-        <p>Massa, todos os direitos rezervados</p>
-        <p>Developed by Enzo-1002</p>
+        <div class="container">
+            <ul>
+                <li> <a href="#"><h3>Política de Privacidade</h3></a></li>
+                <li> <a href="#"><h3>Carreira</h3></a></li>
+                <li> <a href="#"><h3>LinKedin</h3></a></li>
+                <li> <a href="#"><h3>Youtube</h3></a></li>
+                <li> <a href="#"><h3>Facebook</h3></a></li>
+            </ul>
+            <p >Massa, todos os direitos rezervados</p>
+            <!-- <p class="a">Developed by Enzo-1002</p> -->
+        </div>
     </footer>
 </body>
 </html>
